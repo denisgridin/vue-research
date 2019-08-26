@@ -21,8 +21,11 @@
 .menu {
 	width: 200px;
 	height: 100vh;
+	position: fixed;
+	margin-top: -20px;
 	color: @fontColor;
 	font-family: @font;
+	background-color: #f9f9f9;
 	box-shadow: 1px 1px 10px #f1f1f1;
 	.links {
 		display: flex;
@@ -44,7 +47,7 @@
 		font-size: 25px;
 		text-align: center;
 		margin-bottom: 20px;
-		margin-top: 0px;
+		margin-top: 2rem;
 		padding: 20px;
 		border-bottom: 1px solid #333;
 	}
